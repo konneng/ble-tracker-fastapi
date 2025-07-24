@@ -4,9 +4,9 @@ from fastapi import APIRouter
 router = APIRouter()
 
 @router.post("/register")
-def register():
-    return {"msg": "User registration placeholder"}
+def register_user():
+    return {"message": "User registered (placeholder)"}
 
 @router.post("/login")
-def login():
-    return {"msg": "User login placeholder"}
+def login_user():
+    return {"message": "User logged in (placeholder)"}
